@@ -1,0 +1,39 @@
+.div1{
+    border: 5px solid black;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.on{
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    background-color: green;
+    width: 15%;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid white;
+}
+.off{
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    background-color: red;
+    width: 15%;
+    padding: 1rem;
+    border-radius: 2rem;
+    transition: transform 0.3s ease-in-out;
+    transform: translate(70px);
+    border: 3px solid white;
+}
+.red-bg{
+    background-color: red;
+}
+.green-bg{
+    background-color: green;
+}
