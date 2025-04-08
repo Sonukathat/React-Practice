@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const [pokemon, setPokemon] = useState("");
+  const [jok, setJok] = useState("");
 
   useEffect(() => {
     const apiData = async () => {
-      const api = "https://pokeapi.co/api/v2/pokemon/pikachu";
+      const api = "https://official-joke-api.appspot.com/random_joke";
       try {
         const res = await fetch(api);
         const data = await res.json();
-        setPokemon(data);
+        setJok(data);
         console.log(data);
         
       } catch (error) {
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <h1>{pokemon.order}</h1>
+       <h1>{jok.type}</h1>
     </>
   );
 }
