@@ -1,17 +1,16 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const [jok, setJok] = useState("");
+  const [pokemon,setPokemon] = useState(null);
 
   useEffect(() => {
     const apiData = async () => {
-      const api = "https://official-joke-api.appspot.com/random_joke";
+      const api = "https://pokeapi.co/api/v2/pokemon/pikachu";
       try {
         const res = await fetch(api);
         const data = await res.json();
-        setJok(data);
-        console.log(data);
-        
+        setPokemon(data);
+        console.log(data)
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -20,9 +19,10 @@ function App() {
     apiData();
   }, []);
 
+
   return (
     <>
-       <h1>{jok.type}</h1>
+      <img src={pokemon?.sprites?.other?.dream_world?.front_default} alt="" />
     </>
   );
 }
