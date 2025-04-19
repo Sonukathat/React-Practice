@@ -6,11 +6,11 @@ export const Certificate = () => {
     return(
         <>
           <div className='bg-black pt-32'>
-            <p className='text-center text-5xl font-bold text-cyan-300 text-cyan-300'>Certificate</p>
+            <p className='text-center text-5xl font-bold text-cyan-300'>Certificate</p>
             <div className='mt-16 flex justify-around '>
-                <img className='h-64 w-80 shadow-[0_0_20px_#22d3ee]' src={pic4} alt="" />
-                <img className='h-64 w-80 shadow-[0_0_20px_#22d3ee]' src={pic5} alt="" />
-                <img className='h-64 w-80 shadow-[0_0_20px_#22d3ee]' src={pic6} alt="" />
+                <img className='h-64 w-80 hover:shadow-[0_0_20px_#22d3ee] border-3 border-cyan-500' src={pic4} alt="" />
+                <img className='h-64 w-80 hover:shadow-[0_0_20px_#22d3ee] border-3 border-cyan-500' src={pic5} alt="" />
+                <img className='h-64 w-80 hover:shadow-[0_0_20px_#22d3ee] border-3 border-cyan-500' src={pic6} alt="" />
             </div>
           </div>
         </>
