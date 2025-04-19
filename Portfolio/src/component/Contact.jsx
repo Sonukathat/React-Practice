@@ -15,7 +15,7 @@ const downloadResume = () => {
 export const Contact = () => {
     return(
         <>
-          <div className="bg-black pt-32">
+          <div id="contact" className="bg-black pt-32">
             <p className="text-center text-5xl font-bold text-cyan-300">Contact Me</p>
             <div className="mt-32 border flex justify-around">
               <div>

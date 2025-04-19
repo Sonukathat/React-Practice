@@ -26,7 +26,7 @@ import { useState, useEffect } from 'react';
 
     return (
         <>
-          <div className='flex justify-around bg-black'>
+          <div id='home' className='flex justify-around bg-black'>
             <div>
               <h1 class="text-4xl font-bold mt-40 text-cyan-300">Hi!, I Am<br/>Sonu Kathat</h1>
               <h2 className='text-orange-500 text-lg mt-4 font-bold h-8'>{displayText}</h2>

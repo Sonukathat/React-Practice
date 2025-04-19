@@ -10,7 +10,7 @@ import net from '../assets/download (1).png'
 export const Skills = () => {
     return(
         <>
-          <div className="bg-black pt-32">
+          <div id='skills' className="bg-black pt-32">
             <p className='text-center text-5xl font-bold text-cyan-300'>Skills</p>
             <div className='mt-24 flex justify-center gap-16'>
               <div className='rounded-tl-3xl rounded-br-3xl border-2 border-cyan-400 h-36 w-60 flex flex-col items-center gap-5 hover:shadow-[0_0_20px_#22d3ee] hover:-translate-y-3 hover:-translate-x-3 transition-transform duration-200'>

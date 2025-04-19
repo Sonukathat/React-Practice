@@ -1,7 +1,7 @@
 export const Education = () => {
     return(
         <>
-          <div className="bg-black pt-32 pb-4">
+          <div id="education" className="bg-black pt-32 pb-4">
             <p className="text-center text-5xl font-bold text-cyan-300">Education</p>
             <div className="ml-64 mt-16 w-[30rem] p-10 rounded-2xl shadow-[0_0_20px_#22d3ee] transition-transform duration-300 hover:scale-105">
                 <p className="text-white font-bold text-xl">Web Development Course</p>
