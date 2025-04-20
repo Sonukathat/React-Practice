@@ -7,7 +7,7 @@ export const Header = () => {
             </div>
             <div>
                 <ul className="flex justify-around gap-10">
-                    <li><a className="text-cyan-300" href="#home">Home</a></li>
+                    <li className="text-cyan-300    "><a href="#home">Home</a></li>
                     <li className="text-cyan-300"><a href="#education">Education</a></li>
                     <li className="text-cyan-300"><a href="#project">Projects</a></li>
                     <li className="text-cyan-300"><a href="#skills">Skills</a></li>
